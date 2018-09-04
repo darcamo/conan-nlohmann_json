@@ -5,7 +5,7 @@ import os
 
 class NlohmannjsonConan(ConanFile):
     name = "nlohmann-json"
-    version = "3.1.2"
+    version = "3.2.0"
     license = "MIT"
     url = "https://github.com/darcamo/conan-nlohmann_json"
     description = "JSON for Modern C++"
@@ -23,6 +23,3 @@ class NlohmannjsonConan(ConanFile):
         cmake.configure(source_folder="sources", build_folder="build")
         cmake.build()
         cmake.install()
-
-    # def package(self):
-    #     self.copy("*.hpp")
