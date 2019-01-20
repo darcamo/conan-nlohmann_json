@@ -5,7 +5,7 @@ import os
 
 class NlohmannjsonConan(ConanFile):
     name = "nlohmann-json"
-    version = "3.2.0"
+    version = "3.5.0"
     license = "MIT"
     url = "https://github.com/darcamo/conan-nlohmann_json"
     description = "JSON for Modern C++"
